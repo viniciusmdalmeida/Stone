@@ -3,14 +3,17 @@ import pandas as pd
 #Instalar pip install MySQL-python
 
 class BancoDados:
-    host = 'db4free.net'
-    database = 'desafiostone'
-    user = 'desafiostone'
-    password = 'stoneQ123'
+    host = 'sql10.freemysqlhosting.net'
+    database = 'sql10265799'
+    user = 'sql10265799'
+    password = 'dj8PKJ3t3x'
     port = 3306
 
     def __init__(self):
-        self.criarTabelas()
+        try:
+            self.criarTabelas()
+        except:
+            pass
 
     def conectar(self):
         self.con = MySQLdb.connect(self.host, self.user, self.password)
@@ -42,9 +45,8 @@ class BancoDados:
     def inserirCompanhia(self,linha):
         self.conectar()
         try:
-            sql = "INSERT INTO companhias (cnpj,nome,atividade_principal,abertura,capital_social)  VALUES (%s,%s,%s,%s,%s)"
-            val = (
-            linha['cnpj'], linha['nome'], linha['atividade_principal'], linha['data_de_abertura'], linha['capital_social'])
+            sql = "INSERT INTO companhias (cnpj,nome,atividade_principal,data_de_abertura,capital_social)  VALUES (%s,%s,%s,%s,%s)"
+            val = (linha['cnpj'], linha['nome'], linha['atividade_principal'], linha['abertura'], linha['capital_social'])
             self.cursor.execute(sql, val)
             self.con.commit()
         except  Exception as e:
@@ -75,8 +77,9 @@ class BancoDados:
     def inserirQSA(self,linha):
         self.conectar()
         try:
-            sql = "INSERT INTO companhias (nome,qual,cnpj)  VALUES (%s,%s,%s)"
-            val = (linha['nome'], linha['qual'], linha['cnpj'])
+            sql = "INSERT INTO QSA (nome,qual,cnpj)  VALUES (%s,%s,%s)"
+            val = (linha['nome'], linha['qual'], linha['CNPJ'])
+            print(val)
             self.cursor.execute(sql, val)
             self.con.commit()
         except  Exception as e:
@@ -85,26 +88,23 @@ class BancoDados:
             self.con.close()
 
     def pegarCompanhia(self):
-        con = MySQLdb.connect(self.host, self.user, self.password)
+        self.conectar()
         try:
-            con.select_db(self.database)
-            cursor = con.cursor()
-            tabela = pd.read_sql('SELECT * FROM companhias', con=con)
-            con.close()
+            tabela = pd.read_sql('SELECT * FROM companhias', con=self.con)
+            self.con.close()
             return tabela
         except:
-            con.close()
+            self.con.close()
 
 
     def pegarQSA(self):
-        con = MySQLdb.connect(self.host, self.user, self.password)
+        self.conectar()
         try:
-            con.select_db(self.database)
-            cursor = con.cursor()
-            tabela = pd.read_sql('SELECT * FROM QSA', con=con)
-            con.close()
+            tabela = pd.read_sql('SELECT * FROM QSA', con=self.con)
+            self.con.close()
+            return tabela
         except:
-            con.close()
+            self.con.close()
         return tabela
 
     def escreverCompanhias(self,tabela):
@@ -115,4 +115,4 @@ class BancoDados:
     def escreverQSA(self,tabela):
         for n_linha in range(len(tabela)):
             linha = tabela.iloc[n_linha]
-            self.inserirCompanhia(linha)
+            self.inserirQSA(linha)
