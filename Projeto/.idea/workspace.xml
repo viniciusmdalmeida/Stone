@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d7b5ddfe-fe48-4e81-97a3-8fb96c38c2af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BancoDados.py" beforeDir="false" afterPath="$PROJECT_DIR$/BancoDados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtraçãoDados.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtraçãoDados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Principal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saida.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida_Final.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/saida_Final.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../saida.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../saida.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,71 +50,54 @@
     <session id="1687902095">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="207" />
+          <entry key="py" value="275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="207" />
+          <entry key="Python" value="275" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BancoDados.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+            <state relative-caret-position="221">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1542400704963" expanded="true" signature="88:89" ph="..." />
-                <marker date="1542400704963" expanded="true" signature="330:335" ph="..." />
+                <element signature="e#0#22#0" expanded="true" />
+                <marker date="1542911562102" expanded="true" signature="628:629" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/MySQLdb/connections.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="233" lean-forward="true" selection-start-line="231" selection-end-line="233" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/MySQLdb/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Principal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -126,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/Exemplo_notebook-Copy1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="112" lean-forward="true" selection-start-line="36" selection-end-line="112" />
+            <state relative-caret-position="325">
+              <caret line="112" selection-start-line="36" selection-end-line="112" />
             </state>
           </provider>
         </entry>
@@ -135,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="325">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <marker date="1542322558340" expanded="true" signature="34:39" ph="..." />
@@ -147,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExtraçãoDados.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="-714">
               <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
@@ -299,7 +281,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -325,13 +306,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SalvandoBD.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/MySQLdb/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/io/excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-434">
@@ -339,9 +313,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/MySQLdb/connections.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/MySQLdb/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="325">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <marker date="1542322558340" expanded="true" signature="34:39" ph="..." />
@@ -349,45 +325,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/MySQLdb/connections.py">
+    <entry file="file://$PROJECT_DIR$/ExtraçãoDados.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="233" lean-forward="true" selection-start-line="231" selection-end-line="233" />
+        <state relative-caret-position="-714">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Exemplo_notebook-Copy1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="112" lean-forward="true" selection-start-line="36" selection-end-line="112" />
+        <state relative-caret-position="325">
+          <caret line="112" selection-start-line="36" selection-end-line="112" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExtraçãoDados.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/mysql/connector/conversion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Principal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="229">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BancoDados.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        <state relative-caret-position="221">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1542400704963" expanded="true" signature="88:89" ph="..." />
-            <marker date="1542400704963" expanded="true" signature="330:335" ph="..." />
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1542911562102" expanded="true" signature="628:629" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Principal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

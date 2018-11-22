@@ -33,3 +33,5 @@ class TelaInial():
 
 
         master.mainloop()
+
+TelaInial()
