@@ -33,6 +33,9 @@ class BancoDados:
         except:
             pass
 
+    def tabelaExiste(self):
+        return True
+
     def criarTabelas(self):
         with conectar() as con:
             cursor = con.cursor()
